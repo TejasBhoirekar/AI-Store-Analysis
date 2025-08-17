@@ -15,14 +15,27 @@ AI Store Analysis is a machine learning project that predicts sales for a supers
 
 ## Installation
 
-Follow these steps to set up the project locally:
+Follow these steps to set up the AI Store Analysis project locally:
 
-### 1. Clone the repository
+### **1. Clone the repository**
 ```bash
 git clone https://github.com/TejasBhoirekar/AI-Store-Analysis.git
 cd AI-Store-Analysis
-python -m venv venv
-source venv/bin/activate   # For Mac/Linux
-venv\Scripts\activate      # For Windows
+```
+
+### **2. Create a Virtual Environment**
+```bash
+python -m venv venv    #create venv
+source venv/bin/activate    #activate venv for mac
+venv\Scripts\activate     #for windows
+```
+
+### **3. Install dependencies**
+```bash
 pip install -r requirements.txt
-python app.py  #run the flask app
+```
+
+### **4. Run the Flask App**
+```bash
+python app.py
+```
