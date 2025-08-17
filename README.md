@@ -30,12 +30,7 @@ source venv/bin/activate    #activate venv for mac
 venv\Scripts\activate     #for windows
 ```
 
-### **3. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-### **4. Run the Flask App**
+### **3. Run the Flask App**
 ```bash
 python app.py
 ```
